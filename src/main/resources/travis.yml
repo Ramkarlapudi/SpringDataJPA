@@ -1,9 +1,0 @@
-addons:
-  sonarcloud:
-    organization: "ramkarlapudi"
-    token:
-      secure: "LAnUM3cMl4LH3fIKt06Z5Xha73koT42dkIwL0gRWJtjp2oOg3igBGYjJoA3Olz7tU+WRco6Y4StI9NjpFaDOh/1/N+7H0mBmzkbF9uGppvIIaJ3evUCMJq+IChy9bWQOO6OwJ/KUGLl2REak0iyWPlJUBvq59W98FEn6lZCO5n1lVgptdE0VJPExbEDVqljvjJu1+rCqumsKsky3jp/TF/arrqBxtOHvt5kI1kkLu6CYmlbb9PLmNIE7oM8zWK1gu36RANFlTlG54NZuz3T9Qo91D0969V+taVc76GVv/Kovb0GRVkHAhdU+4UKh0bYIrqSuIN54KMcS9sI7scDB9V/gawzMM+PMcpzhIIed0PRMV9Jb1mDBs3m/h7JxOHpaC8PiTriaE+adVWzR3ms+DsZ4UsOqmtLzBeCswztP5cb+YwybWBXVjKjR5NMxAxrSyukPPKzJKy0HlN48TrkX41dnmkScFRaT1qrU1p899yrOy2WJtGYh3khLlJ1Lg2FTjWoqFS+0fgSkiAJKqMOiy3YZ1t2vKJCKYWoCMktThDPq3HRIz2pNuGf4jZhUKe2dfZqHjwe0rwlWgcqvfR2uOQrWh2cyc979O3zeSFBOVrlHJRqwV11Ul5HXcNUcmcaHlom5wI/Nv1F60xZYcXvYTy+5vHU7SG3H2ZnXosxJIIw=" # encrypted value of your token
-
-script:
-  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
-  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=Ramkarlapudi_SpringDataJPA
