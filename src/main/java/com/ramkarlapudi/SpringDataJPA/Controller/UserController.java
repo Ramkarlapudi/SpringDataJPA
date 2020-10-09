@@ -30,7 +30,7 @@ public class UserController {
 	}
 	@GetMapping("/getuser/{id}" )
 	public Optional<UserProfileEntity> getUserById(@PathVariable("id") int id ){
-		return userServiceImpl.getUserById(id);
+		return userServiceImpl.getUserById(id); 
 		
 	}
 	
